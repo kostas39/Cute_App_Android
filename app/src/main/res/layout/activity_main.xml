@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Shiba Inu Icon -->
+    <ImageView
+        android:id="@+id/dogIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/shiba_inu"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/shiba" />
+
+    <!-- Capybara Icon -->
+    <ImageView
+        android:id="@+id/capybaraIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/capybara"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/capybara" />
+
+    <!-- Group of Cats Icon -->
+    <ImageView
+        android:id="@+id/catsIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_of_cats"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/cats" />
+
+    <!-- TextView for Instructions (Message) -->
+    <TextView
+        android:id="@+id/instructionsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/animals"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <!-- Button to Clear Text -->
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/clear"
+        android:textSize="20sp"
+        android:layout_below="@id/instructionsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+</RelativeLayout>

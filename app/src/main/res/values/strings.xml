@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cute_App</string>
+    <string name="cats">Group of Cats Icon</string>
+    <string name="animals">Please Touch on one of the animal icons</string>
+    <string name="capybara">Capybara Icon</string>
+    <string name="clear">Clear Text</string>
+    <string name="shiba">Shiba Inu Icon</string>
+</resources>
